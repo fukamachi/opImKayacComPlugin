@@ -1,0 +1,35 @@
+imKayacCom:
+  _attributes:
+    caption: "im.kayac.com Configuration"
+    enable_pc: true
+    enable_mobile: false
+  im_kayac_com_username:
+    Name: "im_kayac_com_username"
+    Caption: "im.kayac.com username"
+    FormType: "input"
+    ValueType: "im_kayac_com_username"
+    IsRegist: false
+    IsConfig: true
+    IsUnique: true
+    IsRequired: false
+    IsConfirm: false
+  im_kayac_com_password:
+    Name: "im_kayac_com_password"
+    Caption: "im.kayac.com password"
+    FormType: "password"
+    ValueType: "im_kayac_com_password"
+    IsRegist: false
+    IsConfig: true
+    IsUnique: false
+    IsRequired: false
+    IsConfirm: false
+  im_kayac_com_secret_key:
+    Name: "im_kayac_com_secret_key"
+    Caption: "im.kayac.com secret key"
+    FormType: "password"
+    ValueType: "im_kayac_com_secret_key"
+    IsRegist: false
+    IsConfig: true
+    IsUnique: false
+    IsRequired: false
+    IsConfirm: false
